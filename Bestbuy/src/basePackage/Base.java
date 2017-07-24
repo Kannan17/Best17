@@ -142,10 +142,11 @@ public class Base {
 	public WebElement getElement(String locator) throws IOException
 	{
 		
+		
 		// Initialize the WebElement to null first
 		WebElement e=null;
 		
-		
+		try{
 		// Find the object by xpath
 		if ( locator.endsWith("_xpath"))
 		{
@@ -171,6 +172,14 @@ public class Base {
 			takeScreenshot1();
 			Assert.fail();
 		}
+		
+		}
+		
+		catch(Exception e1)
+		{
+			reportFail(e1);
+		}
+		
 			
 		
 		return e;
