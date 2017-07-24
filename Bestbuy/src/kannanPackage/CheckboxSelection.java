@@ -22,7 +22,8 @@ public class CheckboxSelection extends Base {
 	@Test(dataProvider="getData")
 	public void checkBoxVerification(String s) throws IOException, InterruptedException
 	{
-		
+		System.out.println("TEst");
+	
 
 	// Call the getInstance() method to get the Extent Report object
 	rep=ExtentR.getInstance();
