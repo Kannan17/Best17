@@ -6,6 +6,7 @@ public class Testproduct {
 	{
 	
 		  System.out.println("testingprodcut");
+		  System.out.println("testingprodcut");
 	}
 
 }
