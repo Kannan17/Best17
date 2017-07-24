@@ -631,7 +631,7 @@ public class SearchPage extends Base {
 			System.out.println(count=list.size());
 			int checkboxClickCount=0;
 			for (int i=0;i<5;i++)
-			{
+			{ 
 				
 			list.get(i).click();
 			checkboxClickCount++;
