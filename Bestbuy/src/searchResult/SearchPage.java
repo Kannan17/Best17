@@ -37,6 +37,7 @@ public class SearchPage extends Base {
 	@Test(dataProvider="getData",priority=1,enabled = true)
 	public void searchPageTest(Hashtable<String,String> data) throws IOException
 	{
+		System.out.println("This is from branch");
 	
 		if (rep==null)
 		{
